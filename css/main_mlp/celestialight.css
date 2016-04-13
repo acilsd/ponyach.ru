@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&subset=latin,cyrillic,cyrillic-ext');
+
+html, body { 
+	background-image: url("/css/images/cel/2.jpg"); 
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+    background-size: cover;
+	background-attachment: fixed;
+	background-color: #fef9fd; 
+	font-family: "Trebuchet MS",Trebuchet,serif, cursive, 'Kelly Slab';
+	color: #000 
+}
+.fixed-header {
+	background-color: #fef9fd; 
+}
+a
+{
+	color: #e353d8; 
+}
+a:hover
+{
+	color: #e469c6; 
+}
+
+.logo 
+{
+	color: #f2cae8;
+	font-family: Kelly Slab;
+	font-size:2em;
+    font-family: 'Comfortaa', cursive;
+}
+}
+.replymode  
+{
+	background: #f2cae8;
+	border: solid 1px #edbce2;
+	clear: both;
+	color: #000;
+	font-weight: bold;
+	margin-bottom: .5em;
+	padding: 2px;
+	text-align: center;
+}
+.postarea textarea 
+{
+	background-color: transparent;
+	background-image: url(); 
+	background-position: 100% 0%;
+	background-repeat: repeat-y;
+	border: 2px solid #edbce2!important; 
+	border-radius: 5px;
+	box-sizing: content-box;
+	color: #000; 
+	padding-right: 115px;
+}
+input[type="password"],select[name=embedtype],input[type="file"],input[type="image"],input[type="text"]
+{
+	background-color: transparent; 
+	border: 2px solid #edbce2!important; 
+	box-sizing: content-box;
+	color: #000;  
+}
+input[type="file"],input[type="image"],input[type="text"]
+{
+	border-radius: 5px;
+}
+input:hover[type="text"],input:focus[type="text"]
+{
+	background-color: transparent; 
+	color: #000; 
+}
+textarea,select
+{
+	background-color: transparent; 
+	border: 2px solid #edbce2!important; 
+	border-radius: 5px;
+	box-sizing: content-box;
+	color: #000; 
+}
+textarea:hover,textarea:focus,select:hover,select:focus
+{
+	background-color: transparent; 
+	color: #000; 
+}
+
+.postblock {  
+    color: #000;
+    background-color: transparent;
+    border: 0;
+    border-left: solid 2px #edbce2;
+    border-right: solid 2px #edbce2;
+}
+.footer  
+{
+	font-family: serif;
+	font-size: 12px;
+	margin: 2em 0 0 0;
+	text-align: center;
+}
+
+.unkfunc
+{
+	background: inherit;
+	color: #fc6b7f;
+}
+
+.unkfunc0 
+{
+	background: inherit;
+	color: #fc6b7f;
+}
+.unkfunc1 
+{
+	background: inherit;
+	color: #e8596d;
+}
+.unkfunc2 
+{
+	background: inherit;
+	color: #d84f62;
+}
+.unkfunc3 
+{
+	background: inherit;
+	color: #c73f52;
+}
+.unkfunc4 
+{
+	background: inherit;
+	color: #bb3648;
+}
+.reflink
+{
+	font-size: .8em;
+	font-weight: bold;
+}
+.fake_filesize 
+{
+	color: #000;
+	font-size: .8em;
+	text-decoration: none;
+}
+.filetitle 
+{
+	color: #e192cd;
+	font-size: 1.5em;
+	font-family: 'Comfortaa', cursive;
+}
+.postername 
+{
+	color: #000;
+	font-family: "Trebuchet MS",Trebuchet,serif, cursive, 'Kelly Slab';
+}
+.postertrip 
+{
+	color: #eb94fa;
+}
+
+.reply 
+{
+	background: #fcedfb;
+	border: solid 1px #edbce2;
+	border-radius: 5px;
+	margin: 0;
+	padding: 0;
+}
+blockquote
+{
+	margin: .5em .5em .5em 1em;
+}
+blockquote p
+{
+	margin: 0;
+	padding: 0;
+}
+.reply blockquote
+{
+	margin: .5em;
+}
+.doubledash  
+{
+	clear: both;
+	display: none;
+	float: left;
+	vertical-align: top;
+}
+.replytitle
+{
+	color: #485d6d; 
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+hr  
+{
+	border-color: #BBBBBB;
+	border-style: solid none none none;
+	border-width: 1px;
+}
+table  
+{
+	border-style: none;
+}
+table td  
+{
+	border-style: none;
+}
+
+.highlight  
+{
+	background: #52774d;
+	border: 2px dashed #FFFDDD;
+	color: #333333;
+} 
+.spoiler 
+{
+	background: #f1a2af;
+	color: #f1a2af;
+}
+.spoiler:hover
+{
+	color: #000 !important;  
+	background: #f1a2af !important;
+}
+.dice  
+{
+	color: #ca7eb6; 
+	font-style: italic;
+}
+a[href$=sage],a[href$=Sage],a[href$=SAGE]
+{
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	color: #000;
+	text-shadow: #000 0px 0px 5px;
+}
+
+input[type="button"], input[type="submit"]
+{
+	background-color: #fdf0fa;
+	border:1px solid #edbce2; 
+	color: #000;
+	box-shadow: 0 0 2px #fdf0fa, inset 0 0 15px #fae9f6;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	display: inline-block;
+	font-family: "Trebuchet MS",Trebuchet,serif,'Marck Script';
+	font-size: 15px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	text-align: center;
+	margin-right: 2.8px;
+}
+input[type="button"]:hover, input[type="submit"]:hover
+{
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fae9f6), color-stop(1, #fae9f6) );
+	background: -moz-linear-gradient( center top, #fae9f6 5%, #fae9f6 100% );
+	background-color: #82ff82;
+	color: #e469c6;
+}
+input[type="button"]:active, input[type="submit"]:active
+{
+	position: relative;
+	top: 1px;
+}
+
+.modal__inner {
+	background: #fef9fd;
+}

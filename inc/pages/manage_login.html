@@ -1,0 +1,39 @@
+<html>
+<head>
+	<title>Поня.ч Менейдж</title>
+<script type="text/javascript">function sf(){document.managelogin.username.focus();}</script>	
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script type="text/javascript" src="lib/javascript/jquery_plugins/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="/css/bootstrap/custom/dropdowns-enhancements.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/bootstrap/css/bootstrap_dark.css" title="Bootstrap">
+<link rel="stylesheet" type="text/css" href="/css/bootstrap/custom/dropdowns-enhancement.css" title="Bootstrap">
+
+</head>
+<body onload="sf();">
+<p>&nbsp;</p>
+
+<center>
+<div style="height: 80%;border: 10px;font-weight: bold;">
+			<form action="/manage_page.php?action=login" method="post" name="managelogin">
+				<table width="280" height="100">
+					<tr height="33%">
+						<td>
+							<input type="text" name="username" placeholder="Логин">
+						</td>
+					</tr>
+					<tr height="33%">
+						<td>
+							<input type="password" name="password" placeholder="Пароль">
+						</td>
+					</tr>
+					<tr height="34%">
+						<td>
+							<input class="btn" type="submit" value="Войти" />
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+        </center> 
+</body>

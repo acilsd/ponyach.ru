@@ -1,0 +1,293 @@
+@import "https://fonts.googleapis.com/css?family=Marck+Script&subset=latin,latin-ext,cyrillic";
+html, body
+{
+	/* background-image: url("/css/images/chrysalis/ch.png"); */
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: #1c1c1c;
+	font-family: "Trebuchet MS",Trebuchet,serif,'Marck Script', cursive;
+	color: #7895c0;
+}
+.fixed-header {
+	background-color: #1c1c1c; 
+}
+a
+{
+	color: #DFF;
+}
+a:hover
+{
+	color: #4F4;
+	text-shadow: 0 0 2px #0F0;
+}
+
+.logo
+{
+	color: #68A;
+	font-family: Marck Script;
+	font-size: 2em;
+	font-weight: bold;
+	text-shadow: 0 0 5px #68a;
+}
+.replymode
+{
+	background: #222222;
+	border: solid 1px #CCCCCC;
+	clear: both;
+	color: #2266AA;
+	font-weight: bold;
+	margin-bottom: .5em;
+	padding: 2px;
+	text-align: center;
+}
+.postarea
+{
+	background-color: #535353;
+	background-image: url("/css/images/chrysalis/postarea.png");
+	background-position: 100% 0%;
+	background-repeat: repeat-y;
+	border: 2px solid #ceddfe!important;
+	border-radius: 5px;
+	box-sizing: content-box;
+	color: #68afff;
+	padding-right: 115px;
+}
+input[type="password"],select[name=embedtype],input[type="file"],input[type="image"],input[type="text"]
+{
+	background-color: #535353;
+	border: 2px solid #ceddfe!important;
+	box-sizing: content-box;
+	color: #68afff;
+}
+input[type="file"],input[type="image"],input[type="text"]
+{
+	border-radius: 5px;
+}
+input:hover[type="text"],input:focus[type="text"]
+{
+	background-color: #535353;
+	color: #68afff;
+}
+textarea
+{
+	background-color: #535353;
+/*    background-image: url("/css/images/chrysalis/postarea.png");
+	background-position: 100% 0%;
+	background-repeat: repeat-y;                                 */
+	border: 2px solid #ceddfe!important;
+	border-radius: 5px;
+	box-sizing: content-box;
+	color: #68afff;
+	padding-right: 115px;
+}
+select{
+    background-color: #535353;
+	border: 2px solid #ceddfe!important;
+	border-radius: 5px;
+	box-sizing: content-box;
+	color: #68afff;
+}
+textarea:hover,textarea:focus,select:hover,select:focus
+{
+	background-color: #535353;
+	color: #68afff;
+}
+
+.postblock
+{
+	color: #68A;
+	background-color: #445469;
+	border: 0;
+	border-left: solid 3px #68A;
+	border-right: solid 3px #68A;
+}
+.footer
+{
+	font-family: serif;
+	font-size: 12px;
+	margin: 2em 0 0 0;
+	text-align: center;
+}
+
+.unkfunc
+{
+	background: inherit;
+	color: #ccd7e3;
+}
+.unkfunc0
+{
+	background: inherit;
+	color: #ccd7e3;
+}
+.unkfunc1
+{
+	background: inherit;
+	color: #b9c6d3;
+}
+.unkfunc2
+{
+	background: inherit;
+	color: #aab7c5;
+}
+.unkfunc3
+{
+	background: inherit;
+	color: #9ca9b8;
+}
+.unkfunc4
+{
+	background: inherit;
+	color: #8895a4;
+}
+.reflink
+{
+	font-size: .8em;
+	font-weight: bold;
+}
+.fake_filesize
+{
+	color: #3e5263;
+	font-size: .8em;
+	text-decoration: none;
+}
+.filetitle
+{
+	color: #82ff82;
+	text-shadow: 0 0 5px #0F0;
+	font-size: 1.5em;
+	font-family: Marck Script;
+}
+.postername
+{
+	color: #54aa56;
+}
+.postertrip
+{
+	color: #98d89b;
+	font-style: cursive;
+}
+
+.reply
+{
+	background: #191919;
+	border: solid 1px #191919;
+	border-radius: 5px;
+	margin: 0;
+	padding: 0;
+}
+blockquote
+{
+	margin: .5em .5em .5em 1em;
+}
+blockquote p
+{
+	margin: 0;
+	padding: 0;
+}
+.reply blockquote
+{
+	margin: .5em;
+}
+.doubledash
+{
+	clear: both;
+	display: none;
+	float: left;
+	vertical-align: top;
+}
+
+hr
+{
+	border-color: #BBBBBB;
+	border-style: solid none none none;
+	border-width: 1px;
+}
+table
+{
+	border-style: none;
+}
+table td
+{
+	border-style: none;
+}
+
+.highlight
+{
+	background: #52774d;
+	border: 2px dashed #FFFDDD;
+	color: #333333;
+}
+.spoiler
+{
+	background: #575757;
+	color: #575757;
+}
+.spoiler:hover
+{
+	color: #0fb707 !important;
+	background: #575757 !important;
+}
+.dice
+{
+	color: #42d160;
+	font-style: italic;
+}
+a[href$=sage],a[href$=Sage],a[href$=SAGE]
+{
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	color: #000;
+	text-shadow: #000 0px 0px 5px;
+}
+
+.de-btn-rep:hover
+{
+	box-shadow: 0px 0px 20px rgba(92,185,77,0.8);
+}
+.de-btn-hide:hover
+{
+	box-shadow: 0px 0px 20px rgba(92,185,77,0.8);
+}
+.de-btn-src:hover
+{
+	box-shadow: 0px 0px 20px rgba(92,185,77,0.8);
+}
+
+input[type="button"], input[type="submit"]
+{
+	box-shadow: inset 1px 1px 1px 1px #383737;
+	background-color: #2a2a2a;
+	border: 1px solid #383737;
+	color: #7895c0;
+	box-shadow: 0 0 4px #111, inset 0 0 8px #111;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	display: inline-block;
+	font-family: "Trebuchet MS",Trebuchet,serif,'Marck Script';
+	font-size: 15px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	text-align: center;
+	margin-right: 2.8px;
+}
+input[type="button"]:hover, input[type="submit"]:hover
+{
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background: -moz-linear-gradient( center top, #7895c0 5%, #7895c0 100% );
+	background-color: #2a2a2a;
+	color: #fff;
+}
+input[type="button"]:active, input[type="submit"]:active
+{
+	position: relative;
+	top: 1px;
+}
+.modal__inner {
+	background: #191919;
+}

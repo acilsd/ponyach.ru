@@ -1,0 +1,308 @@
+@import "https://fonts.googleapis.com/css?family=Neucha&subset=latin,cyrillic";
+@import "https://fonts.googleapis.com/css?family=Philosopher&subset=latin,cyrillic";
+html, body
+{
+    background-image: url("/css/images/rarity/bgtrue5.png");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #e0e7ed;
+    color: #000;
+    font-family: "Trebuchet MS",Trebuchet,serif, times, "Neucha", 'Philosopher', sans-serif;
+}
+.fixed-header {
+	background-color: #e0e7ed; 
+}
+a
+{
+    color: #0a678d;
+}
+a:hover
+{
+    color: #8650a4;
+}
+
+.logo
+{
+    color: #9F6AD5;
+    font-family: 'Neucha';
+    font-size: 2em;
+    font-weight: bold;
+}
+.replymode
+{
+    background: #9F6AD5;
+    text-align: center;
+    padding: 2px;
+    color: #C9F;
+    clear: both;
+    font-weight: bold;
+    margin-bottom: .5em;
+    border: solid 1px #CCCCCC;
+    -moz-border-radius: 5px;
+}
+.postarea textarea
+{
+    background-image: url("/css/images/rarity/postarea.png");
+    padding-right: 115px;
+    background-repeat: repeat-y;
+    background-position: 100% 0%;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #ceddfe!important;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px}
+input[type="password"],select[name=embedtype],input[type="file"],input[type="image"],input[type="text"]
+{
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    color: #000;
+    border: 2px solid #ceddfe!important;
+    background-color: #fff}
+input[type="file"],input[type="image"],input[type="text"]
+{
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px}
+input:hover[type="text"],input:focus[type="text"]
+{
+    background-color: #fff;
+    color: #000}
+textarea,select
+{
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #ceddfe!important;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px}
+textarea:hover,textarea:focus,select:hover,select:focus
+{
+    background-color: #fff;
+    color: #000}
+
+.postblock
+{
+    background: #ceddfe;
+    color: #000;
+    font-family: 'Calibri';
+    background-image: none;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-position: 0% 0%;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+}
+.footer
+{
+    text-align: center;
+    font-size: 12px;
+    font-family: serif;
+    margin: 2em 0 0 0;
+}
+
+.unkfunc
+{
+    background: inherit;
+    color: #654ea0;
+}
+.unkfunc0
+{
+    background: inherit;
+    color: #654ea0;
+}
+.unkfunc1
+{
+    background: inherit;
+    color: #5c4596;
+}
+.unkfunc2
+{
+    background: inherit;
+    color: #553f8f;
+}
+.unkfunc3
+{
+    background: inherit;
+    color: #503989;
+}
+.unkfunc4
+{
+    background: inherit;
+    color: #45307c;
+}
+.reflink
+{
+    font-size: .8em;
+    font-weight: bold;
+}
+.fake_filesize
+{
+    text-decoration: none;
+    color: #000;
+    font-size: .8em;
+}
+.filetitle
+{
+    background: inherit;
+    font-size: 1.6em;
+    color: #3379bf;
+    font-weight: bold;
+    font-family: 'Neucha';
+    font-style: italic;
+}
+.postername
+{
+    color: #4c166e;
+    font-family: 'Neucha', arial, serif;
+    font-size: 115%}
+.postertrip
+{
+    color: #654ea0;
+    font-family: 'Neucha', arial, serif;
+    font-style: italic;
+}
+
+.reply
+{
+    background: #ceddfe;
+    border-color: #ceddfe;
+    border: solid 1px #ceddfe;
+    padding: 0;
+    margin: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+blockquote
+{
+    margin: .5em .5em .5em 1em;
+}
+blockquote p
+{
+    margin: 0;
+    padding: 0;
+}
+.reply blockquote
+{
+    margin: .5em;
+}
+.doubledash
+{
+    display: none;
+    vertical-align: top;
+    clear: both;
+    float: left;
+}
+
+hr
+{
+    border-style: solid none none none;
+    border-width: 1px;
+    border-color: #BBBBBB;
+}
+table
+{
+    border-style: none;
+}
+table td
+{
+    border-style: none;
+}
+
+.highlight
+{
+    background: #654ea0;
+    color: #333333;
+    border: 2px dashed #FFFDDD;
+}
+.spoiler
+{
+    background: #bbbcf1;
+    color: #bbbcf1;
+}
+.spoiler:hover
+{
+    background: #bbbcf1 !important;
+    color: #000 !important;
+}
+.dice
+{
+    color: #7404ff;
+    font-style: italic;
+}
+a[href$=sage],a[href$=Sage],a[href$=SAGE]
+{
+    color: #000;
+    text-shadow: #000 0px 0px 5px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
+input[type="button"], input[type="submit"]
+{
+	background-color: #ceddfe;
+	border:1.1px solid #a4bff8; 
+	color: #000;
+	box-shadow: 0 0 2px #a4bff8 inset 0 0 15px #c7d7f9;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	display: inline-block;
+	font-family: "Trebuchet MS",Trebuchet,serif,'Marck Script';
+	font-size: 15px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	text-align: center;
+	margin-right: 2.8px;
+}
+input[type="button"]:hover, input[type="submit"]:hover
+{
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8650a4), color-stop(1, #8650a4) );
+	background: -moz-linear-gradient( center top, #7d479c 5%, #7d479c 100% );
+	background-color: #82ff82;
+	color: #bfa2f5;
+}
+input[type="button"]:active, input[type="submit"]:active
+{
+	position: relative;
+	top: 1px;
+}
+
+.thumb{
+	background-color:#ceddfe;
+	border-top-left-radius:4px;
+	border-top-right-radius:4px;
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:4px;
+	transition:background-color .4s;
+	-moz-transition:background-color .4s;
+	-webkit-transition:background-color .4s;
+	-o-transition:background-color .4s;
+	padding:5px
+}
+
+.thumb:hover{
+	background-color:#8650a4;
+}
+
+.modal__inner {
+	background:#e0e7ed;
+}

@@ -1,0 +1,276 @@
+@import "https://fonts.googleapis.com/css?family=Comfortaa";
+html, body { 
+	background-image: url("/css/images/aj/bg3.png");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+	background-attachment: fixed;
+	background-color: #f7eba4; 
+       font-family: "Trebuchet MS",Trebuchet,serif,'Comfortaa', cursive;
+	color: #000
+}
+.fixed-header {
+	background-color: #f7eba4; 
+}
+a
+{
+	color: #d92525;
+}
+a:hover
+{
+	color: #fd9f9f; 
+}
+
+.logo
+{
+	color: #fff; 
+	font-size:2em;
+	font-weight: bold;
+}
+
+.postarea
+{
+	background-color: #fff; 
+	background-image: url("/css/images/aj/postarea.png"); 
+	background-position: 100% 0%;
+	background-repeat: repeat-y;
+	border: 1px solid #fece72!important; 
+	border-radius: 5px;
+	box-sizing: content-box;
+	color: #000; 
+	padding-right: 115px;
+}
+input[type="password"],select[name=embedtype],input[type="file"],input[type="image"],input[type="text"]
+{
+	background-color: #fff; 
+	border: 1px solid #fece72!important; 
+	box-sizing: content-box;
+	color: #000; 
+}
+input[type="file"],input[type="image"],input[type="text"]
+{
+	border-radius: 5px;
+}
+input:hover[type="text"],input:focus[type="text"] 
+{
+	background-color: #fff;
+	color: #000;
+}
+textarea
+{
+	background-color: #fff; 
+	background-image: url("/css/images/aj/postarea.png"); 
+	background-position: 100% 0%;
+	background-repeat: repeat-y;
+	border: 1px solid #fece72!important; 
+	border-radius: 5px;
+	box-sizing: content-box;
+	color: #000; 
+	padding-right: 115px;
+}
+select{
+    border: 1px solid #fece72!important; 
+	border-radius: 5px;
+	box-sizing: content-box;
+	color: #000;
+    
+}
+textarea:hover,textarea:focus,select:hover,select:focus 
+{
+	background-color: #fff; 
+	color: #000;
+
+}
+.postblock { 
+    color: #000; 
+    background-color: #ffe7b8; 
+    border: 0;
+    border-left: solid 3px #ffe7b8; 
+    border-right: solid 3px #ffe7b8
+}
+.footer 
+{
+	font-family: serif;
+	font-size: 12px;
+	margin: 2em 0 0 0;
+	text-align: center;
+}
+
+.unkfunc 
+{
+	background: inherit;
+	color: #5d9d09;
+}
+.unkfunc0 
+{
+	background: inherit;
+	color: #5d9d09;
+}
+.unkfunc1 
+{
+	background: inherit;
+	color: #589409;
+}
+.unkfunc2 
+{
+	background: inherit;
+	color: #538c08;
+}
+.unkfunc3 
+{
+	background: inherit;
+	color: #4c8206;
+}
+.unkfunc4 
+{
+	background: inherit;
+	color: #467706;
+}
+.reflink
+{
+	font-size: .8em;
+	font-weight: bold;
+}
+.fake_filesize 
+{
+	color: #000;
+	font-size: .8em;
+	text-decoration: none;
+}
+.filetitle 
+{
+	color: #4d7a29;
+	font-size: 1.5em;
+	font-family: Comfortaa
+}
+.postername 
+{
+	color: #000;
+}
+.postertrip 
+{
+	color: #63932b;
+}
+
+.reply 
+{
+    background: -moz-linear-gradient(45deg, #ffe3ae 0%, #ffe4af 7%, #ffe1aa 21%, #ffdc9a 39%, #ffda93 52%, #ffd990 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#ffe3ae), color-stop(7%,#ffe4af), color-stop(21%,#ffe1aa), color-stop(39%,#ffdc9a), color-stop(52%,#ffda93), color-stop(100%,#ffd990)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg, #ffe3ae 0%,#ffe4af 7%,#ffe1aa 21%,#ffdc9a 39%,#ffda93 52%,#ffd990 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg, #ffe3ae 0%,#ffe4af 7%,#ffe1aa 21%,#ffdc9a 39%,#ffda93 52%,#ffd990 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg, #ffe3ae 0%,#ffe4af 7%,#ffe1aa 21%,#ffdc9a 39%,#ffda93 52%,#ffd990 100%); /* IE10+ */
+    background: linear-gradient(180deg, #ffe3ae 0%,#ffe4af 7%,#ffe1aa 21%,#ffdc9a 39%,#ffda93 52%,#ffd990 100%); /* W3C */
+    border: 2px solid #ffec9f;
+	border-radius: 5px;
+	margin: 0;
+	padding: 0;
+}
+blockquote
+{
+	margin: .5em .5em .5em 1em;
+}
+blockquote p
+{
+	margin: 0;
+	padding: 0;
+}
+.reply blockquote
+{
+	margin: .5em;
+}
+.doubledash 
+{
+	clear: both;
+	display: none;
+	float: left;
+	vertical-align: top;
+}
+.replytitle
+{
+	color: #485d6d; 
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+hr 
+{
+	border-color: #BBBBBB;
+	border-style: solid none none none;
+	border-width: 1px;
+}
+table
+{
+	border-style: none;
+}
+table td 
+{
+	border-style: none;
+}
+
+.highlight
+{
+	background: #52774d;
+	border: 2px dashed #FFFDDD;
+	color: #333333;
+} 
+.spoiler 
+{
+	background: #f3bc46;
+	color: #f3bc46;
+}
+.spoiler:hover
+{
+	color: #d54754 !important;
+	background: #f3bc46 !important;
+}
+.dice 
+{
+	color: #ff9c00; 
+	font-style: italic;
+}
+a[href$=sage],a[href$=Sage],a[href$=SAGE]
+{
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	color: #000;
+	text-shadow: #000 0px 0px 5px;
+}
+
+input[type="button"], input[type="submit"]
+{
+	background-color: #fef5a3;
+	border:1.1px solid #ddcb6d; 
+	color: #000;
+	box-shadow: 0 0 2px #ffe1aa , inset 0 0 15px #fae9f6;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	display: inline-block;
+	font-family: "Trebuchet MS",Trebuchet,serif,'Marck Script';
+	font-size: 15px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	text-align: center;
+	margin-right: 2.8px;
+}
+input[type="button"]:hover, input[type="submit"]:hover
+{
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fae9f6), color-stop(1, #fae9f6) );
+	background: -moz-linear-gradient( center top, #fef5a3 5%, #fef5a3 100% );
+	background-color: #ffe4af;
+	color: #d92525;
+}
+input[type="button"]:active, input[type="submit"]:active
+{
+	position: relative;
+	top: 1px;
+}
+.modal__inner {
+	background: #f7eba4;
+}

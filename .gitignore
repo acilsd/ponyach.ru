@@ -1,0 +1,24 @@
+# dirs
+b/*
+cgi-bin/*
+d/*
+data/*
+dev/*
+dollchan/*
+oc/*
+r34/*
+rf/*
+sss/*
+tea/*
+test/*
+vg/*
+
+#images 
+images/src/*
+images/thumb/*
+images/captcha/*
+images/ponyaba/*
+
+# configs and private files
+mail/login.php
+config.php

@@ -1,0 +1,270 @@
+@font-face{
+	font-family:celestiafont;
+	src:url(/css/images/nightmare/CelestiaMediumRedux1.5.ttf)
+}
+
+html,body{
+	background:url("/css/images/nightmare/bgg.jpg") no-repeat right bottom fixed #002;
+	background-attachment:scroll;
+	background-repeat:no-repeat;
+	background-position:0% 0%;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-attachment:fixed;
+	background-color:transparent;
+	font-family:"Trebuchet MS",Trebuchet,serif,cursive;
+	color:#DDD;
+}
+
+.fixed-header {
+	background-color: #002; 
+}
+
+blockquote{
+	color:#DDD
+}
+
+hr{
+	border-bottom-color:#225
+}
+
+h1,h2{
+	color:#FFF;
+	text-align:center;
+	font-family:celestiafont
+}
+
+.spoiler{
+	background:#225;
+	color:#225;
+}
+
+.spoiler:hover{
+	background:#225 !important;
+	color:#fff !important;
+}
+
+.reply blockquote {
+    margin: 0.5em;
+}
+
+.thumb{
+	background-color:rgba(17,17,51,0.85);
+	border-top-left-radius:4px;
+	border-top-right-radius:4px;
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:4px;
+	transition:background-color .4s;
+	-moz-transition:background-color .4s;
+	-webkit-transition:background-color .4s;
+	-o-transition:background-color .4s;
+	padding:5px
+}
+
+.thumb:hover{
+	background-color:rgba(35,35,100,.85)
+}
+
+.logo{
+	color:#FFF;
+	font-family:celestiafont;
+	font-size:2em;
+	font-weight:bold;
+}
+
+a,a:visited,a:active{
+	color:#35D
+}
+
+a:hover,.reflink a:hover{
+	color:#68F;
+	text-shadow:0 0 2px #AAF
+}
+
+.reflink{
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.postblock{
+	background:rgba(23,23,75,0.5);
+	color:#AAF
+}
+
+input[type="password"],select[name=embedtype],input[type="image"],input[type="text"]{
+	background-color:transparent;
+	border:1px solid #337!important;
+	box-sizing:content-box;
+	color:#FFF;
+	transition:background-color .4s;
+	-moz-transition:background-color .4s;
+	-webkit-transition:background-color .4s;
+	-o-transition:background-color .4s;
+}
+
+.postarea input[type=text]:focus,.postarea input[type=password]:focus,.postarea,textarea:focus{
+	background-color:transparent;
+	color:#fff;
+	border-color:#337;
+}
+
+textarea{
+		background-color:transparent;
+	border:1px solid #337!important;
+	color:#FFF;
+}
+
+.reply,.highlight	{
+	background: #0c0221; 
+	border: solid 1px #1e0849;
+	border-radius: 5px;
+	margin: 0;
+	padding: 0;
+}
+select{
+    	background: #0c0221; 
+	    border: solid 1px #1e0849;
+	    border-radius: 1px;
+        color:#fff;
+       
+}
+
+.reflinkpreview,.highlight,.helphover div{
+	background:rgba(0,0,20,0.9);
+	border-top-left-radius:4px;
+	border-top-right-radius:4px;
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:4px;
+	border-left-width:3px;
+	border-left-color:#008;
+	padding:5px
+}
+
+.filetitle{
+	color:#33C;
+    font-size: 1.3em;
+
+    font-weight: bold;
+
+    font-style: italic;
+}
+
+.fake_filesize {
+	color:#AAA;
+    font-size: 0.8em;
+}
+
+.postername{
+	color:#46F;
+	border-bottom-color:#6080e0
+}
+
+.postername a{
+	color:#9AF
+}
+
+.postertrip{
+	color:#44A
+}
+.unkfunc{
+	color:#4070c0
+}
+.unkfunc0{
+	color:#4070c0
+}
+.unkfunc1{
+	color:#3967b5
+}
+.unkfunc2{
+	color:#2f5da9
+}
+.unkfunc3{
+	color:#28549e
+}
+.unkfunc4{
+	color:#1f4a92
+}
+
+.rcv{
+	font-size:1.1em;
+	text-shadow:2px 2px 0 rgba(100,100,170,0.6),-2px -2px 0 rgba(50,50,170,0.4)
+}
+
+.dice{
+	font-weight:100;
+	border:2px outset #88F;
+	font-style:italic;
+	line-height:1.5em;
+	outline:0
+}
+
+.doubledash{
+	clear:both;
+	display:none;
+	float:left;
+	vertical-align:top;
+}
+
+.footer{
+	font-family:serif;
+	font-size:12px;
+	margin:2em 0 0;
+	text-align:center;
+}
+
+ul,li{
+	margin:0;
+	padding:0;
+}
+
+
+input[type="button"], input[type="submit"]
+{
+	background-color: #0c0221;
+	border:1px solid #1e0849; 
+	color: #fff;
+	box-shadow: 0 0 2px #a4bff8 inset 0 0 15px #c7d7f9;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	display: inline-block;
+	font-family: "Trebuchet MS",Trebuchet,serif,'Marck Script';
+	font-size: 15px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	text-align: center;
+	margin-right: 2.8px;
+}
+input[type="button"]:hover, input[type="submit"]:hover
+{
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8650a4), color-stop(1, #8650a4) );
+	background: -moz-linear-gradient( center top, #7d479c 5%, #7d479c 100% );
+	background-color: #82ff82;
+	color: #fff;
+}
+input[type="button"]:active, input[type="submit"]:active
+{
+	position: relative;
+	top: 1px;
+}
+
+input[type="file"]{
+    border:1px solid #1e0849; 
+}
+
+.modal__inner {
+	background:url("/css/images/nightmare/bgg.jpg") no-repeat right bottom fixed #002;
+	background-attachment:scroll;
+	background-repeat:no-repeat;
+	background-position:0% 0%;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-attachment:fixed;
+	background-color:transparent;
+}

@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&subset=latin,cyrillic,cyrillic-ext');
+
+html, body { 
+	background-image: url("/css/images/tavi/4.png"); 
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover; 
+background-size: cover;
+	background-attachment: fixed;
+	background-color: #d3cec2; 
+	font-family: "Trebuchet MS",Trebuchet,serif, cursive, 'Kelly Slab';
+	color: #000 
+}
+.fixed-header {
+	background-color: #d3cec2; 
+}
+a
+{
+	color: #8b38b4; 
+}
+a:hover
+{
+	color: #8d5c92; 
+}
+
+.logo 
+{
+	color: #ff9df5;
+	font-family: Kelly Slab;
+	font-size:2em;
+    font-family: 'Comfortaa', cursive;
+}
+}
+.replymode   
+{
+	background: #000;
+	border: solid 1px #42d813;
+	clear: both;
+	color: #4e892a;
+	font-weight: bold;
+	margin-bottom: .5em;
+    padding: 2px;
+	text-align: center;
+}
+.postarea textarea 
+{
+	background-color: transparent;
+	background-image: url(); 
+	background-position: 100% 0%;
+	background-repeat: repeat-y;
+	border: 2px solid #a19882!important; 
+	border-radius: 5px;
+	box-sizing: content-box;
+	color: #000; 
+	padding-right: 115px;
+}
+input[type="password"],select[name=embedtype],input[type="file"],input[type="image"],input[type="text"]
+{
+	background-color: #e4e2de; 
+	border: 2px solid #a19882!important; 
+	box-sizing: content-box;
+	color: #000;  
+}
+input[type="file"],input[type="image"],input[type="text"]
+{
+	border-radius: 5px;
+}
+input:hover[type="text"],input:focus[type="text"]
+{
+	background-color: #e4e2de; 
+	color: #000; 
+}
+textarea,select
+{
+	background-color: #e4e2de; 
+	border: 2px solid #a19882!important; 
+	border-radius: 5px;
+	box-sizing: content-box;
+	color: #000; 
+}
+textarea:hover,textarea:focus,select:hover,select:focus
+{
+	background-color: #e4e2de; 
+	color: #000; 
+}
+
+.postblock {  
+    color: #000;
+    background-color: #cac4b7;
+    border: 0;
+    border-left: solid 2px #a19882;
+    border-right: solid 2px #a19882;
+}
+.footer  
+{
+	font-family: serif;
+	font-size: 12px;
+	margin: 2em 0 0 0;
+	text-align: center;
+}
+
+.unkfunc 
+{
+	background: inherit;
+	color: #a860c9;
+}
+.unkfunc0 
+{
+	background: inherit;
+	color: #a860c9;
+}
+.unkfunc1 
+{
+	background: inherit;
+	color: #9e57be;
+}
+.unkfunc2
+{
+	background: inherit;
+	color: #914cb1;
+}
+.unkfunc3 
+{
+	background: inherit;
+	color: #853fa5;
+}
+.unkfunc4 
+{
+	background: inherit;
+	color: #7a359a;
+}
+.reflink
+{
+	font-size: .8em;
+	font-weight: bold;
+}
+.fake_filesize
+{
+	color: #000;
+	font-size: .8em;
+	text-decoration: none;
+}
+.filetitle 
+{
+	color: #fff;
+	font-size: 1.5em;
+	font-family: 'Comfortaa', cursive;
+}
+.postername 
+{
+	color: #323131;
+	font-family: "Trebuchet MS",Trebuchet,serif, cursive, 'Kelly Slab';
+}
+.postertrip 
+{
+	color: #9e6dba;
+}
+
+.reply 
+{
+	background: #cac4b7; 
+	border: solid 1px #a19882;
+	border-radius: 5px;
+	margin: 0;
+	padding: 0;
+}
+blockquote
+{
+	margin: .5em .5em .5em 1em;
+}
+blockquote p
+{
+	margin: 0;
+	padding: 0;
+}
+.reply blockquote
+{
+	margin: .5em;
+}
+.doubledash  
+{
+	clear: both;
+	display: none;
+	float: left;
+	vertical-align: top;
+}
+
+hr  
+{
+	border-color: #BBBBBB;
+	border-style: solid none none none;
+	border-width: 1px;
+}
+table  
+{
+	border-style: none;
+}
+table td  
+{
+	border-style: none;
+}
+
+.highlight  
+{
+	background: #52774d;
+	border: 2px dashed #FFFDDD;
+	color: #333333;
+} 
+.spoiler 
+{
+	background: #dacae0;
+	color: #dacae0;
+}
+.spoiler:hover
+{
+	color: #000 !important;
+	background: #9c88a5 !important;
+}
+.dice  
+{
+	color: #b487b9; 
+	font-style: italic;
+}
+a[href$=sage],a[href$=Sage],a[href$=SAGE]
+{
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	color: #000;
+	text-shadow: #000 0px 0px 5px;
+}
+
+
+input[type="button"], input[type="submit"]
+{
+	background-color: #cac4b7;
+	border:1.1px solid #a19882; 
+	color: #000;
+	box-shadow: 0 0 2px #cac4b7, inset 0 0 15px #d3cec2;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	display: inline-block;
+	font-family: "Trebuchet MS",Trebuchet,serif,'Marck Script';
+	font-size: 15px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	text-align: center;
+	margin-right: 2.8px;
+}
+input[type="button"]:hover, input[type="submit"]:hover
+{
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #cfcac0), color-stop(1, #cfcac0) );
+	background: -moz-linear-gradient( center top, #cfcac0 5%, #cfcac0 100% );
+	background-color: #c8e5fa;
+	color: #8b38b4;
+}
+input[type="button"]:active, input[type="submit"]:active
+{
+	position: relative;
+	top: 1px;
+}
+
+.modal__inner {
+	background:#d3cec2;
+}

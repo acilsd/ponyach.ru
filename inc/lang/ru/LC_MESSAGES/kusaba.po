@@ -1,0 +1,708 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: trevorchan\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2007-12-09 03:10+0000\n"
+"PO-Revision-Date: 2007-12-05 18:15+0000\n"
+"Last-Translator: Dmitry-Sh <Unknown>\n"
+"Language-Team: Russian <ru@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2008-03-12 04:24+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+msgid "(for post and file deletion)"
+msgstr "(для удаления постов и файлов)"
+
+msgid "Type"
+msgstr "Роль"
+
+msgid "information"
+msgstr "Информация"
+
+msgid "repairs"
+msgstr "Тех. работы"
+
+msgid "changelog"
+msgstr "Чейнжлог"
+
+msgid "Select a Board"
+msgstr "Выберите доску"
+
+msgid "Rating"
+msgstr "Рейтинг"
+
+msgid "Rating name."
+msgstr "Имя рейтинга"
+
+msgid "Staff member successfully added."
+msgstr "Аккаунт добавлен"
+
+msgid "Invalid type"
+msgstr "Неправильная роль"
+
+msgid "A staff member with that ID already exists."
+msgstr "Аккаунт с таким ID уже существует"
+
+msgid "Staff successfully deleted"
+msgstr "Аккаунт удалён"
+
+msgid "Invalid staff ID."
+msgstr "Невалидный ID роли"
+
+msgid "Something went wrong."
+msgstr "Что-то пошло не так..."
+
+msgid "Staff successfully updated"
+msgstr "Обновлено"
+
+msgid "Last active"
+msgstr "Последняя активность"
+
+msgid "Time"
+msgstr "Время"
+
+msgid "User"
+msgstr "Юзер"
+
+msgid "Action"
+msgstr "Действие"
+
+msgid "ID"
+msgstr "id"
+
+msgid "Board options"
+msgstr "Настройка досок"
+
+msgid "Directory"
+msgstr "Название"
+
+msgid "The directory of the board."
+msgstr "Название"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Board type"
+msgstr "Тип доски"
+
+msgid "Upload type"
+msgstr "Загрузка файлов"
+
+msgid "No embedding"
+msgstr "Без вложений"
+
+msgid "Order"
+msgstr "Порядок"
+
+msgid "Allowed filetypes"
+msgstr "Форматы файлов"
+
+msgid "Allowed ratings"
+msgstr "Рейтинги"
+
+msgid "Deleting non-deleted replies which belong to deleted threads."
+msgstr "Очищаю посты"
+
+msgid "Optimizing all tables in database."
+msgstr "Оптимизирую таблицы в базе данных"
+
+msgid "Cleanup finished."
+msgstr "Очистка окончена"
+
+msgid "Cleanup"
+msgstr "Очистка"
+
+msgid "Edit/Delete"
+msgstr "Править/Удалить"
+
+msgid "<h2>Add News Post</h2>This message will be displayed as it is written, so make sure you add the proper HTML."
+msgstr "<h2>Добавить Новость</h2> Это сообщение будет показано в точности с написанием, поэтому убедитесь, что используете допустимый HTML."
+
+msgid "A staff member with that ID already exists."
+msgstr "Участник с таким ID уже существует."
+
+msgid "A staff member with that id does not appear to exist."
+msgstr "Участник с таким ID отсутствует."
+
+msgid "Disk space used"
+msgstr "Использовано места"
+
+msgid "Change account password"
+msgstr "Сменить пароль аккаунта"
+
+msgid "Password successfully changed."
+msgstr "Пароль изменен"
+
+msgid "The old password you provided did not match the current one."
+msgstr "Пароли не совпадают"
+
+msgid "The second password did not match the first."
+msgstr "Пароли не совпадают"
+
+msgid "Please fill in all required fields."
+msgstr "Заполните все поля"
+
+msgid "Change account password"
+msgstr "Сменить пароль"
+
+msgid "Old password"
+msgstr "Старый пароль"
+
+msgid "New password"
+msgstr "Новый пароль"
+
+msgid "New password again"
+msgstr "Подтвердите новый пароль"
+
+msgid "Janitor"
+msgstr "Помощник"
+
+msgid "Add"
+msgstr "Добавить"
+
+msgid "Add staff member"
+msgstr "Добавить участника"
+
+msgid "Added on"
+msgstr "Добавлено"
+
+msgid "Administration"
+msgstr "Администрация"
+
+msgid "Administrator"
+msgstr "Администратор"
+
+msgid "Administrators"
+msgstr "Администраторы"
+
+msgid "All Threads"
+msgstr "Все Нити"
+
+msgid "All boards"
+msgstr "Все разделы"
+
+msgid "All threads/posts by that IP in selected boards successfully deleted."
+msgstr "Все темы/сообщения с этого IP успешно удалены в выбранных разделах."
+
+msgid "An image, or message, is required for a reply."
+msgstr "Я не принимаю пустые сообщения!"
+
+msgid "Banned %d IP addresses using an IP address list."
+msgstr "Забанено %d IP-адресов с использованием списка IP-адресов."
+
+msgid "Board"
+msgstr "Доска"
+
+msgid "Board type:"
+msgstr "Тип доски:"
+
+msgid "Boards"
+msgstr "Разделы"
+
+msgid "Can be left blank."
+msgstr "Можно оставить пустым."
+
+msgid "Can not be left blank."
+msgstr "Нельзя оставить пустым."
+
+msgid "Cancel"
+msgstr "Отменить"
+
+msgid "Captcha"
+msgstr "Код"
+
+msgid "Continue"
+msgstr "Дальше"
+
+msgid "Could not copy uploaded image."
+msgstr "Загруженное изображение не удалось сохранить."
+
+msgid "Could not create thumbnail."
+msgstr "Не удалось создать эскиз."
+
+msgid "Days to keep modlog entries"
+msgstr "Дней до удаления логов действий модераторов"
+
+msgid "Default"
+msgstr "По умолчанию"
+
+msgid "Default style:"
+msgstr "Стиль по-умолчанию"
+
+msgid "Delete"
+msgstr "Удалить"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Directory"
+msgstr "Директория"
+
+msgid "Duplicate file entry detected."
+msgstr "Этот файл уже загружен."
+
+msgid "Edit"
+msgstr "Редактировать"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "Error, it appears your file did not transfer properly.  Please go back and try again."
+msgstr "Ошибка: файл не был загружен. Попробуйте еще раз."
+
+msgid "File"
+msgstr "Файл"
+
+msgid "File was not fully uploaded.  Please go back and try again."
+msgstr "Файл не был загружен целиком. Пожалуйста, повторите попытку."
+
+msgid "First 100 posts"
+msgstr "+100"
+
+msgid "First 100 posts shown."
+msgstr "Показываются первые 100 постов."
+
+msgid "Forced anonymous"
+msgstr "Форсированная анонимность"
+
+msgid "Global configuration succesfully updated."
+msgstr "Общие настройки успешно обновлены."
+
+msgid "Go"
+msgstr "ОК"
+
+msgid "Header image"
+msgstr "Логотип"
+
+
+msgid "IP"
+msgstr "IP"
+
+msgid "If set to yes, this board will appear in bold in the menu"
+msgstr "Если включено, доска будет выделена полужирным шрифтом в меню."
+
+msgid "If set to yes, this board will appear in italics in the menu"
+msgstr "Если включено, доска будет выделена наклонным шрифтом в меню."
+
+msgid "Image"
+msgstr "Изображение"
+
+msgid "Image successfully deleted from your post."
+msgstr "Изображение из сообщения удалено."
+
+msgid "Images"
+msgstr "Изображения"
+
+msgid "Improper filetype."
+msgstr "Недопустимый тип файла"
+
+msgid "Include header"
+msgstr "Добавить логотип"
+
+msgid "Incorrect captcha entered."
+msgstr "Введен неправильный код подтверждения"
+
+msgid "Incorrect password."
+msgstr "Неправильный пароль."
+
+msgid "Incorrect username/password."
+msgstr "Неправильный логин/пароль."
+
+msgid "Inject"
+msgstr "Иньекция"
+
+msgid "Integer values must be entered correctly."
+msgstr "Целые значения должны быть введены верно."
+
+msgid "Invalid session."
+msgstr "Ошибка сессии."
+
+msgid "Invalid staff ID."
+msgstr "Неверный ID участника."
+
+msgid "Invalid thread ID.  This may have been caused by the thread recently being deleted."
+msgstr "Неверный номер темы. Возможно, она только что была удалена."
+
+msgid "Last 50 posts"
+msgstr "+50"
+
+msgid "Last 50 posts shown."
+msgstr "Показываются последние 50 постов."
+
+msgid "Last Post"
+msgstr "Последний Пост"
+
+msgid "Lock"
+msgstr "Заблокировать"
+
+msgid "Locked"
+msgstr "Блок"
+
+msgid "Log in again."
+msgstr "Требуется повторная авторизация."
+
+msgid "Manage boards"
+msgstr "Управление разделами."
+
+msgid "Maximum board pages"
+msgstr "Максимальное количество страниц в разделе"
+
+msgid "Maximum image size"
+msgstr "Максимальный размер изображения"
+
+msgid "Maximum message length"
+msgstr "Максимальная длина сообщения"
+
+msgid "Maximum thread age (Hours)"
+msgstr "Максимальный возраст темы (часы)"
+
+msgid "Maximum thread replies"
+msgstr "Максимальное количество ответов в тему"
+
+msgid "Maxmimum thumbnail height"
+msgstr "Максимальная высота эскиза"
+
+msgid "Maxmimum thumbnail width"
+msgstr "Максимальная ширина эскиза"
+
+msgid "Message"
+msgstr "Пост"
+
+msgid "Misc"
+msgstr "Другое"
+
+msgid "Moderates"
+msgstr "Модерирует"
+
+msgid "Moderating boards"
+msgstr "Модерируемые разделы"
+
+msgid "Moderation"
+msgstr "Модерирование"
+
+msgid "Moderator"
+msgstr "Модератор"
+
+msgid "Moderators"
+msgstr "Модераторы"
+
+msgid "Modify staff member"
+msgstr "Изменить участника"
+
+msgid "Module settings"
+msgstr "Настройки модулей"
+
+msgid "Modules"
+msgstr "Модули"
+
+msgid "More"
+msgstr "Далее"
+
+msgid "NOTICE: You are using the default administrator account.  Anyone can log in to this account, so a second administrator account needs to be created.  Create another, log in to it, and delete this one."
+msgstr "ВНИМАНИЕ: Вы используете стандартную запись администратора! Любой может ею воспользоваться, поэтому настоятельно рекомендуем создать еще одну, удалив эту."
+
+msgid "Name"
+msgstr "Имя"
+
+msgid "Never"
+msgstr "Никогда"
+
+msgid "New Thread"
+msgstr "Новая Нить"
+
+msgid "News entry successfully added."
+msgstr "Новая запись успешно добавлена."
+
+msgid "Next"
+msgstr "Дальше"
+
+msgid "No"
+msgstr "Нет"
+
+msgid "No boards"
+msgstr "Разделов нет"
+
+msgid "No threads."
+msgstr "Нет нитей."
+
+msgid "None"
+msgstr "Нету"
+
+msgid "Normal imageboard"
+msgstr "Нормальная доска"
+
+msgid "Oekaki imageboard"
+msgstr "Доска оекаки"
+
+msgid "Open images in new window"
+msgstr "Открывать изображения в новом окне"
+
+msgid "Order"
+msgstr "Последовательность"
+
+msgid "Password"
+msgstr "Пaроль"
+
+msgid "Please enter a search query."
+msgstr "Пожалуйста, введите поисковый запрос"
+
+msgid "Please make sure your file is smaller than %dB"
+msgstr "Файл должен быть меньше %dБ."
+
+msgid "Please select only one image to upload."
+msgstr "Пожалуйста, загружайте только одно изображение за раз."
+
+msgid "Popular"
+msgstr "Популярная"
+
+msgid "Post"
+msgstr "Сообщение"
+
+msgid "Post successfully deleted."
+msgstr "Сообщение удалено."
+
+msgid "Postbox notice"
+msgstr "Заметка"
+
+msgid "Posting rates (past hour)"
+msgstr "Рейтинг сообщений (за последний час)"
+
+msgid "Posts"
+msgstr "Сообщения"
+
+msgid "Preview"
+msgstr "Предпросмотр"
+
+msgid "Previous"
+msgstr "Назад"
+
+msgid "Proxy list"
+msgstr "Список прокси"
+
+msgid "Query"
+msgstr "Запрос"
+
+msgid "Query executed successfully"
+msgstr "Запрос успешно выполнен."
+
+msgid "Quick Reply"
+msgstr "Быстрый ответ"
+
+msgid "Read this thread from the beginning"
+msgstr "Прочитать эту нить с начала."
+
+msgid "Rebuild complete.  Took <b>%d</b> seconds."
+msgstr "Пересчет завершен. Он занял <b>%d</b> секунд."
+
+msgid "Redirect to thread"
+msgstr "Перенаправить в тему"
+
+msgid "Remove"
+msgstr "Удалить"
+
+msgid "Replies"
+msgstr "Ответы"
+
+msgid "Reply"
+msgstr "Ответ"
+
+msgid "Report"
+msgstr "Отчет"
+
+msgid "Reports"
+msgstr "Отчеты"
+
+msgid "Results"
+msgstr "Результаты"
+
+msgid "Search"
+msgstr "Поиск"
+
+msgid "Section"
+msgstr "Секция"
+
+msgid "Site Styles"
+msgstr "Стили сайта"
+
+msgid "Sorry, a generic error has occurred."
+msgstr "Извините, произошла ошибка."
+
+msgid "Sorry, because of your numerous failed logins, you have been locked out from logging in for 20 minutes.  Please wait and then try again."
+msgstr "Извините, но из-за ряда неудачных попыток входа, Вам будет закрыт доступ на 20 минут. Пожалуйста, подождите и попробуйте еще раз."
+
+msgid "Sorry, that filetype is not allowed on this board."
+msgstr "Извините, этот тип файла не разрешен к загрузке в раздел."
+
+msgid "Sorry, this board is locked and can not be posted in."
+msgstr "Извините, раздел закрыт для сообщений."
+
+msgid "Sorry, this thread is locked and can not be replied to."
+msgstr "Я закрыла этот тред, сюда нельзя написать"
+
+msgid "Sorry, your message is too long.  Message length: %d, maxmimum allowed length: %d"
+msgstr "Твоё сообщение слишком длинное, я не могу его принять!"
+
+msgid "Sorry, your search returned zero results."
+msgstr "Поиск не дал результатов."
+
+msgid "Staff member successfully added."
+msgstr "Участник добавлен"
+
+msgid "Staff rights"
+msgstr "Права модераторов"
+
+msgid "Staff successfully deleted"
+msgstr "Участник удален"
+
+msgid "Staff successfully updated"
+msgstr "Участник обновлен"
+
+msgid "Statistics"
+msgstr "Статистика"
+
+msgid "Stickied"
+msgstr "Прикреплено"
+
+msgid "Sticky"
+msgstr "Прикрепленный"
+
+msgid "Style"
+msgstr "Стиль"
+
+msgid "Styles"
+msgstr "Стили"
+
+msgid "Subject"
+msgstr "Тема"
+
+msgid "Text board"
+msgstr "Текстовая доска"
+
+msgid "Text boards only.  If enabled, the list of threads displayed on the front page will be formatted differently to be compact."
+msgstr "Только текстовые доски. Если включено, список нитей на главной странице будет форматироваться более компактно."
+
+msgid "That ID is a reply, not a thread."
+msgstr "Это номер ответа, а не темы."
+
+msgid "That thread has yet to be deleted."
+msgstr "Эта тема уже удалена."
+
+msgid "The 5 newest replies are shown below."
+msgstr "Последние 5 ответов показаны ниже."
+
+msgid "The style which will be set when the user first visits the board."
+msgstr "Стиль, который устанавливается при первом посещении доски."
+
+msgid "There are currently no threads to display."
+msgstr "Нити для отображения отсутствуют."
+
+msgid "There was an error in trying to delete your post"
+msgstr "Ошибка при попытке удалить сообщение."
+
+msgid "Thread"
+msgstr "Thread"
+
+msgid "Threads"
+msgstr "Треды"
+
+msgid "Trial"
+msgstr "Тестовая"
+
+msgid "Unable to locate a board named"
+msgstr "Невозможно найти раздел под названием"
+
+msgid "Unlock"
+msgstr "Разблокировать"
+
+msgid "Unsticky"
+msgstr "Открепленный"
+
+msgid "Update"
+msgstr "Обновить"
+
+msgid "Update successful."
+msgstr "Успешно обновлено."
+
+msgid "Username"
+msgstr "Логин"
+
+msgid "Welcome"
+msgstr "Добро пожаловать!"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "You have been successfully logged out."
+msgstr "Вы успешно вышли."
+
+msgid "You must enter a subject."
+msgstr "Вы должны ввести тему."
+
+msgid "You searched for"
+msgstr "Вы искали"
+
+msgid "Your post already doesn't have an image!"
+msgstr "В Вашем сообщении нет изображений."
+
+msgid "Your posting password"
+msgstr "Пароль для сообщений"
+
+msgid "and"
+msgstr "и"
+
+msgid "forever"
+msgstr "всегда"
+
+msgid "log out"
+msgstr "Выйти"
+
+msgid "or"
+msgstr "или"
+
+msgid "Supported file types are"
+msgstr "Разрешённые типы файлов"
+
+msgid "Maximum file size allowed is"
+msgstr "Максимальный размер файла"
+
+msgid "Images greater than %1x%2 pixels will be thumbnailed."
+msgstr "Изображения размером более %1x%2 точек будут уменьшены."
+
+msgid "Captcha"
+msgstr "Подтверджение"
+
+msgid "omitted"
+msgstr "пропущены"
+
+msgid "Click Reply to view."
+msgstr "Нажмите ''Ответ'', чтобы увидеть тред целиком."
+
+msgid "omitted"
+msgstr "пропущены"
+
+msgid "omitted"
+msgstr "пропущены"
+
+msgid "Message too long. Click %shere%s to view the full text."
+msgstr "Текст сообщения слишком длинный. %sПолный текст%s."
+
+msgid "Return"
+msgstr "Назад"
+
+msgid "Posting mode: Reply"
+msgstr "Вы сейчас отвечаете на тред"
+
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  8ch_ru <https://launchpad.net/~stop-reading-this>\n"
+"  Aleksej Korgenkov <https://launchpad.net/~grimpanto>\n"
+"  tj9991 <https://launchpad.net/~tslocum>\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Aleksej Korgenkov https://launchpad.net/~grimpanto\n"
+"  Dmitry-Sh https://launchpad.net/~tty01\n"
+"  Nikolay https://launchpad.net/~nicko4ever"
+

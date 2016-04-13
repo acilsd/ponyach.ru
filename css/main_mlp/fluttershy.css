@@ -1,0 +1,307 @@
+@import "https://fonts.googleapis.com/css?family=Indie+Flower";
+@import 'https://fonts.googleapis.com/css?family=Comfortaa&subset=latin,cyrillic';
+html, body
+{
+    background-image: url("/css/images/fluttershy/bgtrue3.png");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #FFF798;
+    color: #000;
+    font-family: "Trebuchet MS" ,Trebuchet, serif, times, "Indie Flower", "Comfortaa";
+}
+.fixed-header {
+	background-color: #FFF798; 
+}
+a
+{
+    color: #34345c;
+}
+a:hover
+{
+    color: #c000c0;
+}
+
+.logo
+{
+    color: #E57EB5;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Indie Flower';
+}
+.replymode
+{
+    background: #fcf6ae;
+    text-align: center;
+    padding: 2px;
+    color: #000;
+    clear: both;
+    font-weight: bold;
+    margin-bottom: .5em;
+    border: solid 1px #dcdabd;
+    -moz-border-radius: 5px;
+}
+.postarea
+{
+    background-image: url("/css/images/fluttershy/postarea.png");
+    padding-right: 115px;
+    background-repeat: repeat-y;
+    background-position: 100% 0%;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #EAC957!important;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px
+}
+
+input[type="password"],select[name=embedtype],input[type="file"],input[type="image"],input[type="text"]
+{
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    color: #000;
+    border: 2px solid #EAC957!important;
+    background-color: #fff}
+input[type="file"],input[type="image"],input[type="text"]
+{
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px}
+input:hover[type="text"],input:focus[type="text"]
+{
+    background-color: #fff;
+    color: #000}
+textarea
+{
+    background-image: url("/css/images/fluttershy/postarea.png");
+    padding-right: 115px;
+    background-repeat: repeat-y;
+    background-position: 100% 0%;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #EAC957!important;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px
+        }
+select{
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #EAC957!important;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px
+}
+textarea:hover,textarea:focus,select:hover,select:focus
+{
+    background-color: #fff;
+    color: #000}
+
+.postblock
+{
+    background: #F9C;
+    color: #000;
+    font-family: "Calibri";
+    background-image: none;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-position: 0% 0%;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+}
+.footer
+{
+    text-align: center;
+    font-size: 12px;
+    font-family: serif;
+    margin: 2em 0 0 0;
+}
+
+.unkfunc
+{
+    background: inherit;
+    color: #a030c0;
+}
+.unkfunc0
+{
+    background: inherit;
+    color: #a030c0;
+}
+.unkfunc1
+{
+    background: inherit;
+    color: #9228b0;
+}
+.unkfunc2
+{
+    background: inherit;
+    color: #8723a4;
+}
+.unkfunc3
+{
+    background: inherit;
+    color: #7a1e94;
+}
+.unkfunc4
+{
+    background: inherit;
+    color: #711b8a;
+}
+.reflink
+{
+    font-size: .8em;
+    font-weight: bold;
+}
+.fake_filesize
+{
+    text-decoration: none;
+    color: #000;
+    font-size: .8em;
+}
+.filetitle
+{
+    background: inherit;
+    font-size: 1.2em;
+    color: #000;
+    font-weight: bold;
+}
+.postername
+{
+    color: #CF4B87;
+    font-family: 'Comfortaa';
+}
+.postertrip
+{
+    color: #E57EB3;
+    font-family: 'Comfortaa'}
+
+.reply
+{
+    background: -moz-linear-gradient(45deg, #faeeaa 0%, #fbeead 13%, #faedaa 31%, #f8e995 56%, #f8e78e 75%, #f8e78c 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#faeeaa), color-stop(13%,#fbeead), color-stop(31%,#faedaa), color-stop(56%,#f8e995), color-stop(75%,#f8e78e), color-stop(100%,#f8e78c)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg, #faeeaa 0%,#fbeead 13%,#faedaa 31%,#f8e995 56%,#f8e78e 75%,#f8e78c 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg, #faeeaa 0%,#fbeead 13%,#faedaa 31%,#f8e995 56%,#f8e78e 75%,#f8e78c 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg, #faeeaa 0%,#fbeead 13%,#faedaa 31%,#f8e995 56%,#f8e78e 75%,#f8e78c 100%); /* IE10+ */
+    background: linear-gradient(180deg, #faeeaa 0%,#fbeead 13%,#faedaa 15%,#f8e995 56%,#f8e78e 75%,#f8e78c 100%); /* W3C */
+    border: 2px solid #ddcb6d;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+}
+blockquote
+{
+    margin: .5em .5em .5em 1em;
+}
+blockquote p
+{
+    margin: 0;
+    padding: 0;
+}
+.reply blockquote
+{
+    margin: .5em;
+}
+.doubledash
+{
+    display: none;
+    vertical-align: top;
+    clear: both;
+    float: left;
+}
+
+hr
+{
+    border-style: solid none none none;
+    border-width: 1px;
+    border-color: #BBBBBB;
+}
+table
+{
+    border-style: none;
+}
+table td
+{
+    border-style: none;
+}
+
+.highlight
+{
+    background: #EDD46E;
+    color: #333333;
+    border: 2px dashed #FFFDDD;
+}
+.spoiler
+{
+    background: #f2ed66;
+    color: #f2ed66;
+}
+.spoiler:hover
+{
+    background: #ffdc7d !important;
+    color: #000 !important;
+}
+.dice
+{
+    color: #66F;
+    font-style: italic;
+}
+a[href$=sage],a[href$=Sage],a[href$=SAGE]
+{
+    color: #000;
+    text-shadow: #000 0px 0px 5px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
+input[type="button"], input[type="submit"]
+{
+	background-color: #fef5a3;
+	border:1.1px solid #ddcb6d; 
+	color: #000;
+	box-shadow: 0 0 2px #fee683, inset 0 0 15px #fae9f6;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	display: inline-block;
+	font-family: "Trebuchet MS",Trebuchet,serif,'Marck Script';
+	font-size: 15px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	text-align: center;
+	margin-right: 2.8px;
+}
+input[type="button"]:hover, input[type="submit"]:hover
+{
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fae9f6), color-stop(1, #fae9f6) );
+	background: -moz-linear-gradient( center top, #fef5a3 5%, #fef5a3 100% );
+	background-color: #82ff82;
+	color: #F9C;
+}
+input[type="button"]:active, input[type="submit"]:active
+{
+	position: relative;
+	top: 1px;
+}
+
+.modal__inner {
+	background: #FFF798;
+}
