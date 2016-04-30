@@ -1,4 +1,5 @@
 ﻿<?php
+die('r34 posting disabled');
 
 require 'config.php';
 require 'inc/functions.php';
