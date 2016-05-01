@@ -6,8 +6,8 @@
 <link rel="stylesheet" type="text/css" href="/css/main_stuff/alertify/alertify.default.css" />
 <link rel="stylesheet" type="text/css" href="/css/main_stuff/railscasts/railscasts.css" />
 
-<link id="default_stylesheet" rel="stylesheet" type="text/css" href="/css/main_other/darktile.css" title="Darktile" />
-<link rel="alternate stylesheet" type="text/css" href="/css/main_other/photon.css" title="Photon" />
+<link id="default_stylesheet" rel="stylesheet" type="text/css" href="/css/main_other/photon.css" title="Photon" />
+<link rel="alternate stylesheet" type="text/css" href="/css/main_other/darktile.css" title="Darktile" />
 <link rel="alternate stylesheet" type="text/css" href="/css/main_other/neutron.css" title="Neutron" />
 <link rel="alternate stylesheet" type="text/css" href="/css/main_other/cyborg.css" title="Cyborg" />
 <link rel="alternate stylesheet" type="text/css" href="/css/main_other/niceroom.css" title="Niceroom" />

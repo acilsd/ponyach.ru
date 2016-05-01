@@ -52,8 +52,6 @@
   {% endif %}
 {% endfor %}
 {%spacefull %}
-<?php if($p['show_r34']){ ?>/ <a href="/r34" id="board_link_top_r34" >r34</a><?php } ?>
-<?php if($p['show_rf']){ ?>/ <a href="/rf" id="board_link_top_rf" >rf</a><?php } ?>
 {% endspacefull %}
 ]
   {% endfor %}
@@ -63,8 +61,6 @@
   /
   <a title="Почта" id="board_link_top_mail" href="{{ ku_boardspath }}/mail">Почта</a>
   /
-  <a title="Понитуб" id="board_link_top_tube" href="/getdb.php?ponytube">Понитуб</a>
-  /
   <a title="Чейнжлог" id="board_link_top_changelog" href="{{ ku_boardspath }}/html/changelog.html">Чейнжлог</a>
   ]
   </div>
@@ -72,9 +68,9 @@
   
   <center><a href="#">Вверх</a></center>
   <center>Скорость /b/: <span id="speed">(загрузка...)</span> постов в час</center>
-  <center>На сайте: <span id="online">(загрузка...)</span> пони</center>
+  <center>Онлайн: <span id="online">(загрузка...)</span></center>
   <div class="footer" style="clear: both;">
-  <a href="{{ ku_boardspath }}" target="_top">Поняба</a>
+  <a href="https://github.com/TryCatchThr0w/ponyach.ru" target="_blank">Поняба</a>
   </div>
 
   <script type="text/javascript">

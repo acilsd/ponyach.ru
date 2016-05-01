@@ -34,8 +34,6 @@
 	{% endspacefull %}
 		{% endfor %}
 	{%spacefull %}
-	<?php if($p['show_r34']){ ?>/ <a href="/r34" id="board_link_top_r34" >r34</a><?php } ?>
-	<?php if($p['show_rf']){ ?>/ <a href="/rf" id="board_link_top_rf" >rf</a><?php } ?>
 	{% endspacefull %}
 			 ]
 		{% endfor %}
@@ -44,8 +42,6 @@
 	<a title="Информация" id="board_link_top_info" href="{{ ku_boardspath }}/html/information.html">Информация</a>
 	/
 	<a title="Почта" id="board_link_top_mail" href="{{ ku_boardspath }}/mail">Почта</a>
-	/
-	<a title="Понитуб" id="board_link_top_tube" href="/getdb.php?ponytube">Понитуб</a>
 	/
 	<a title="Чейнжлог" id="board_link_top_changelog" href="{{ ku_boardspath }}/html/changelog.html">Чейнжлог</a>
 	] 
@@ -103,14 +99,14 @@ function getRandomInt(min, max) {
 }
 
 bannersArray = [
-	'<a href="/vg/"><img src="/images/banners/vg_2.gif"></a>',
-	'<a href="/d/"><img src="/images/banners/d_1.png"></a>',
-	'<a href="/d/"><img src="/images/banners/d_2.png"></a>',
-	'<a href="/r34/"><img src="/images/banners/r34_1.png"></a>',
-	'<a href="/rf/"><img src="/images/banners/rf_1.png"></a>',
-	'<a href="/vg/"><img src="/images/banners/vg_1.png"></a>',
-	'<a href="/oc/"><img src="/images/banners/oc_1.png"></a>',
-	'<a href="/vg/"><img src="/images/banners/vg_3.png"></a>'
+	// '<a href="/vg/"><img src="/images/banners/vg_2.gif"></a>',
+	// '<a href="/d/"><img src="/images/banners/d_1.png"></a>',
+	// '<a href="/d/"><img src="/images/banners/d_2.png"></a>',
+	// '<a href="/r34/"><img src="/images/banners/r34_1.png"></a>',
+	// '<a href="/rf/"><img src="/images/banners/rf_1.png"></a>',
+	// '<a href="/vg/"><img src="/images/banners/vg_1.png"></a>',
+	// '<a href="/oc/"><img src="/images/banners/oc_1.png"></a>',
+	// '<a href="/vg/"><img src="/images/banners/vg_3.png"></a>'
 ];
 
 bannersMax = bannersArray.length -1;

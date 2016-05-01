@@ -55,8 +55,6 @@
 	<br>
 	
 	<script>
-	document.write(create_option_checkbox('show_r34', 'hide_r34', 'show_r34', 'r34', '1', 'Отображать /r34/'));
-	document.write(create_option_checkbox('show_rf', 'hide_rf', 'show_rf', 'rf', '1', 'Отображать /rf/'));
 	document.write(create_option_checkbox('rpbutton', 'rp', 'rp', 'rp', 'hided', 'Скрывать тег rp'));
 	</script> 
   </div>
