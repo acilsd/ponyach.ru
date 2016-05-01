@@ -67,19 +67,13 @@ ratings[11] = '[A]';
 [ 
 <a href="/b/" title="/b/ was never good">b</a> / 
 <a href="/d/" title="/d/ - Предложения и баги">d</a> / 
-<a href="/tea/" title="/tea/ - Чайная комната">tea</a> /
 <a href="/test/" title="/test/ &mdash; Полигон">test</a> / 
-<a href="/vg/" title="/vg/ - Видеоигры Полигон">vg</a> /
-<a href="/oc/" title="/oc/ - ориджинал контент">oc</a>
-<span class="hide_r34" style="display:none"> / <a href="/r34">r34</a></span>
-<span class="hide_rf" style="display:none"> / <a href="/rf">rf</a></span>] [
-<a href="http://ponyach.ru/information.html" title="Информация">Информация</a>
+<a href="/r34">r34</a> ] [
+<a href="/html/information.html" title="Информация">Информация</a>
 /
 <a href="http://ponyach.ru/mail/" title="Почта">Почта</a>
 /
-<a title="Понитуб" href="http://tube.ponyach.ru/">Понитуб</a>
-/
-<a title="Чейнжлог" href="http://ponyach.ru/changelog.html">Чейнжлог</a>
+<a title="Чейнжлог" href="/html/changelog.html">Чейнжлог</a>
 ]  
 
 <style>

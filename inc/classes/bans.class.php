@@ -281,6 +281,10 @@ class Bans {
 	}
 	
 	function DisplayThreadBan(){
+		if ($_GET['json'] == 1) {
+			echo (json_encode(Array("error" => 'Ты не можешь постить в этом треде, попробуй в следующем.', "id" => NULL)));
+			die();
+		}
 		die('Ты не можешь постить в этом треде, попробуй в следующем.');
 	}
 }

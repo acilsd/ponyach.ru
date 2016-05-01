@@ -3175,7 +3175,6 @@ class Manage {
 				$post_boardid = board_name_to_id(str_replace('/', '', $_POST['post_boardid']));
 				// there is no explicid IP, but (i hope) a post, from which we should take it
 				$query = 'select ipmd5, session_md5 from posts where boardid ='.$tc_db->qstr($post_boardid).' and id = '.$tc_db->qstr($_POST['postid']);
-				//bdl_debug ($query);
 				$row = $tc_db->GetRow($query);
 				$session_md5 = $row['session_md5'];
 				$ipmd5 = $row['ipmd5'];
@@ -3185,6 +3184,7 @@ class Manage {
 				}
 			} else {
 				$ipmd5 = md5($_POST['ip']);
+				//$ipmd5 = md5_encrypt($_POST['ip'], KU_RANDOMSEED);
 				$session_md5 = 'ebloa';
 			}
 

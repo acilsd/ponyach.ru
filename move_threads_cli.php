@@ -12,9 +12,9 @@ require_once ('config.php');
 
 $db = $tc_db;
 
-$threadIds = [3627, 4142, 243, 1017, 149, 1888, 3803, 965, 2410, 1438, 561, 41];
+$threadIds = [216];
 
-$boardNameFrom = 'tea';
+$boardNameFrom = 'd';
 $boardNameTo = 'arch';
 $existPostIdInNewBoard = 1; //пост в котором не должно быть картинок
 

@@ -1,6 +1,7 @@
-[<a onclick="javascript:set_captcha_type(3)"href="javascript:void(0);">Easy</a>]
-[<a onclick="javascript:set_captcha_type(2)"href="javascript:void(0);">Easy++</a>]
-[<a onclick="javascript:set_captcha_type(1)"href="javascript:void(0);">Medium</a>] <br />
+[<a onclick="javascript:set_captcha_type(3)"href="javascript:void(0);">Простая</a>]
+[<a onclick="javascript:set_captcha_type(2)"href="javascript:void(0);">Средняя</a>]
+[<a onclick="javascript:set_captcha_type(1)"href="javascript:void(0);">Сложная</a>]
+<br><br>
 <img src="/images/captcha/{{ question }}.png" onclick="haiku()" /> <br />
 
 <span class="ex"><img onclick="haiku('{{ answer0 }}');" src="/images/captcha/{{ answer0 }}.png" /></span>
