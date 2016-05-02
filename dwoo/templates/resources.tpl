@@ -41,13 +41,20 @@
 	{% endfor %}
 	{% endif %}
 
-	if (localStorage.getItem('DESU_Config')){
+	if (localStorage.getItem('DESU_Config')) {
 		if (localStorage.getItem('DESU_Config').length > 20){
 			setCookie("dollchantrue", "true");
 		}
 	}
+
+	if (localStorage.getItem('DESU_Config') && localStorage.getItem('dollchanFirstInit') === null) {
+		localStorage.setItem('DESU_Config', localStorage.DESU_Config.replace(/"captchaLang":1,/, '"captchaLang":1,"replyWinDrag":1,"replyWinX":"left: 1250.699951171875px","replyWinY":"top: 215px",'));
+		localStorage.setItem('dollchanFirstInit', true)
+	}
 	</script>
+
 {% else %}
+
 	<script type="text/javascript">
 	var ku_boardspath = '';
 	var ku_cgipath = '';

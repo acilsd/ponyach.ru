@@ -93,25 +93,4 @@
 
 <br>
 <center><span id="randbanner" class="hidemobile ca_thumb"></span></center>
-<script>
-// function getRandomInt(min, max) {
-//   return Math.floor(Math.random() * (max - min + 1)) + min;
-// }
-
-// bannersArray = [
-// 	'<a href="/vg/"><img src="/images/banners/vg_2.gif"></a>',
-// 	'<a href="/d/"><img src="/images/banners/d_1.png"></a>',
-// 	'<a href="/d/"><img src="/images/banners/d_2.png"></a>',
-// 	'<a href="/r34/"><img src="/images/banners/r34_1.png"></a>',
-// 	'<a href="/rf/"><img src="/images/banners/rf_1.png"></a>',
-// 	'<a href="/vg/"><img src="/images/banners/vg_1.png"></a>',
-// 	'<a href="/oc/"><img src="/images/banners/oc_1.png"></a>',
-// 	'<a href="/vg/"><img src="/images/banners/vg_3.png"></a>'
-// ];
-
-// bannersMax = bannersArray.length -1;
-// if ( getCookie("hidebanners")  != '1' ) {
-// 	document.getElementById('randbanner').innerHTML = bannersArray[getRandomInt(0, bannersMax)];
-// }
-</script>
 {% endspacefull %}

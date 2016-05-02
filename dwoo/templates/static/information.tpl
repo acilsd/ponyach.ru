@@ -18,17 +18,10 @@
 — Мы за мирное решение конфликта, бан — это всегда крайняя мера, которой хотелось бы избежать. <br>
 </div>
 <br /> 
-<div class="reply">
-<center><h2>Постинг и капча</h2></center>
-Чтобы отправить сообщение, вам нужно ввести защитный код - капчу. Вводится она <b>единственный раз</b>. После успешного ввода капчи, вводить её больше не потребуется.<br>
-Задержка на отправку поста - 15 секунд, треда - 30 минут.<br /> 
-<br>
-<a onclick="haiku_del();" id="haiku_btn" class="show-popup" href="javascript:void(0)" data-showpopup="1" style="text-decoration:none;">Попрактиковать капчу</a>
-</div>
 <br />
 <div class="reply">
 <center><h2>Особенности движка</h2></center>
-<p>Подробно о них написано <a style="text-decoration:none;" href="https://github.com/TryCatchThr0w/ponyach.ru/wiki/engine_functions"><b>тут</b></a></p>
+<center><p><a style="text-decoration:none;" target="_blank" href="https://github.com/TryCatchThr0w/ponyach.ru/wiki/engine_functions">Подробное описание</a></p></center>
 </div>
 <br />
 <div class="reply">
